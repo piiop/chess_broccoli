@@ -1,0 +1,13 @@
+uci
+position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+go depth 10
+# Mid-game position with many options
+position fen r2qkb1r/ppp2ppp/2n1b3/3p4/3Pn3/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 0 8
+go depth 10
+# Complex endgame
+position fen 8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1
+go depth 12
+# Position with many captures possible
+position fen r1b2rk1/ppppqppp/2n2n2/4p1B1/1b2P3/2NP1N2/PPP2PPP/R2QKB1R w KQ - 0 1
+go depth 10
+quit

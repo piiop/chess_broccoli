@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}\\src\\bitboard\\attacks.cpp",
+                "${workspaceFolder}\\src\\bitboard\\magic.cpp",
+                "${workspaceFolder}\\src\\movegen\\movegen.cpp",
+                "${workspaceFolder}\\src\\movegen\\piece_moves.cpp",
+                "${workspaceFolder}\\src\\board\\state.cpp",
+                "${workspaceFolder}\\src\\board\\piece_ops.cpp",
+                "${workspaceFolder}\\src\\board\\validation.cpp",
+                "${workspaceFolder}\\src\\board\\board.cpp",
+                "${workspaceFolder}\\src\\board\\fen.cpp",
+                "${workspaceFolder}\\src\\eval.cpp",
+                "${workspaceFolder}\\src\\search.cpp",
+                "${workspaceFolder}\\src\\transposition.cpp",
+                "${workspaceFolder}\\src\\history.cpp",
+                "${workspaceFolder}\\main.cpp",
+                "-I",
+                "${workspaceFolder}\\include",
+                "-o",
+                "${workspaceFolder}\\build\\chessbroccoli.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "compiler: C:\\msys64\\mingw64\\bin\\g++.exe"
+        }
+    ]
+}
